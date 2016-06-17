@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 public class BouncingBall extends JFrame implements MouseListener 
 {
-	ArrayList<Ball> Ball = new ArrayList<Ball>();
+	ArrayList<Ball> ball = new ArrayList<Ball>();
 	PaintBall paintball;
 	public static void main(String args[]) 
 	{
